@@ -24,11 +24,11 @@ All outputs are intended solely to highlight data patterns and trends.
 - Modular, maintainable codebase following software engineering best practices
 
 ## Project Structure
-data/ # Sample and processed datasets
-scripts/ # Executable pipeline scripts
-src/ # Core logic (DB, features, modeling, reporting)
-models/ # Trained ML models
-outputs/ # Generated reports
+- data/ # Sample and processed datasets
+- scripts/ # Executable pipeline scripts
+- src/ # Core logic (DB, features, modeling, reporting)
+- models/ # Trained ML models
+- outputs/ # Generated reports
 
 ## Machine Learning Overview
 - **Problem Type:** Binary classification (glucose spike event detection)
