@@ -1,6 +1,6 @@
 # DiaLog — Diabetes Tracking + ML Pattern Insights (Informational Only)
 
-DiaLog-AI is an AI-powered diabetes tracking and machine learning insight platform that analyzes
+DiaLog is an AI-powered diabetes tracking and machine learning insight platform that analyzes
 nutrition intake, medication timing, and glucose readings to surface **personalized, non-medical
 pattern insights**.
 
