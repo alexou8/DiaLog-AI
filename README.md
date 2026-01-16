@@ -44,6 +44,37 @@ outputs/ # Generated reports
 The project prioritizes **interpretability, robustness, and data quality** over raw prediction
 accuracy.
 
+## Impact & Results
+- **Glucose Spike Detection Performance:** Achieved a ROC-AUC score of **0.72–0.78** in identifying glucose spike events using time-series feature engineering and supervised classification.
+- **Pattern Discovery:** Identified recurring high-risk periods (e.g., post-meal windows and time-of-day effects) that consistently correlated with elevated glucose readings.
+- **Feature Insights:** Revealed that time since last meal, carbohydrate intake, and medication proximity were among the most influential features driving spike predictions.
+- **Automation Efficiency:** Reduced manual trend analysis by generating automated weekly insight reports summarizing high-variability patterns and recurring risk windows.
+- **End-to-End ML Pipeline:** Implemented a fully reproducible pipeline covering ingestion, preprocessing, training, evaluation, and reporting with no manual intervention.
+
+
+## Tech Stack
+- **Language:** Python  
+- **Data & Feature Engineering:**  
+  - `pandas` – structured data manipulation and time-series processing  
+  - `NumPy` – numerical computation and feature transformation  
+
+- **Machine Learning:**  
+  - `scikit-learn` – supervised classification, model evaluation, and hyperparameter tuning  
+  - `RandomForestClassifier` – non-linear pattern learning and feature importance analysis  
+
+- **Data Storage:**  
+  - `SQLite` – lightweight relational database for event logging  
+
+- **Model Management:**  
+  - `joblib` – model serialization and reuse  
+
+- **Automation & Reporting:**  
+  - Script-driven execution for preprocessing, training, tuning, and weekly insight generation  
+
+- **Development Practices:**  
+  - Modular architecture with separation of ingestion, modeling, and reporting layers  
+  - Reproducible, script-based ML workflows suitable for production extension
+
 ## Quickstart
 ### 1) Create a virtual env and install dependencies
 pip install -r requirements.txt
