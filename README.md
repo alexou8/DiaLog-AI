@@ -12,9 +12,9 @@ An end-to-end ML pipeline that:
 - generates weekly insights reports
 
 ## ⚠️ Disclaimer
-This project is for **informational and educational purposes only**.  
-It does **not** provide medical advice, diagnosis, treatment, or medication recommendations.
-All outputs are intended solely to highlight data patterns and trends.
+- This project is for **informational and educational purposes only**.  
+- It does **not** provide medical advice, diagnosis, treatment, or medication recommendations.
+- All outputs are intended solely to highlight data patterns and trends.
 
 ## Key Features
 - Structured logging of meals, medication events, and glucose readings
